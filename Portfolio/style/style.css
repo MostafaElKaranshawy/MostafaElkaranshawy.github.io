@@ -9,7 +9,6 @@ a{
 }
 i{
     font-size: 30px;
-    font-weight: bold;
     color: white;
 }
 
@@ -137,6 +136,19 @@ header .share i{
     text-align: center;
     font-family: sans-serif;
     transform: translatex(-10%);
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.item i {
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.item i:hover{
+    transform: scale(1.1);
 }
 .contacts {
     margin-top: 50px;
