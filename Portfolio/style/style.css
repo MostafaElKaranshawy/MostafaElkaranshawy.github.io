@@ -148,7 +148,7 @@ header .share i{
     transition: 0.3s;
 }
 .item i:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) rotateY(180deg);
 }
 .contacts {
     margin-top: 50px;
